@@ -25,7 +25,7 @@ function App() {
                     <button className="submit-button" type="submit"> Invia</button>
                     {nextPage ? <button> Next page: {nextPage}</button> : null}
                 </form>
-
+    
                 <div className="flex">
                     {result.map((image, index) =>
                         <div key={image.thumbnailUrl} className="flex-vertical">
