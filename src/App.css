@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.flex-vertical{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 1rem;
+}
+
+img{
+  border-radius: 4px;
+}
+
+.input-text{
+  height: 40px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+img{
+  object-fit: contain;
+}
+
+.submit-button {
+
+  background-color: #0166d9;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
