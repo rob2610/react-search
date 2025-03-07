@@ -10,12 +10,9 @@ function App() {
         click.preventDefault()
         const response = await fetch(`${import.meta.env.VITE_BASE_URL}/images?query=${text}&page=${nextPage || 1}`, {method: 'GET'})
         const json = await response.json()
-        console.log(json)
         setResult(json.images)
         setNextPage(json.nextPage)
     }
-
-
 
     return (
         <>
