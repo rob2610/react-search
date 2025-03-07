@@ -7,10 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "yarn build && firebase emulators:start --only hosting"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
+    "firebase": "^11.4.0",
+    "firebase-tools": "^13.33.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
