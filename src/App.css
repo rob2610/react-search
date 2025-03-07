@@ -46,4 +46,10 @@ img{
   cursor: pointer;
 }
 
+.logout-button {
 
+    background-color: #e60a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
